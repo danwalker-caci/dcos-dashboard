@@ -1,0 +1,21 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\node_modules",
+    "\\node_modules\\highcharts",
+    "\\node_modules\\highcharts\\js",
+    "\\node_modules\\highcharts\\js\\es-modules",
+    "\\node_modules\\highcharts\\js\\es-modules\\indicators",
+    "\\node_modules\\highcharts\\js\\es-modules\\masters",
+    "\\node_modules\\highcharts\\js\\es-modules\\masters\\indicators",
+    "\\node_modules\\highcharts\\js\\indicators",
+    "\\node_modules\\js-base64",
+    "\\node_modules\\js-base64\\test-moment",
+    "\\node_modules\\lodash",
+    "\\src",
+    "\\src\\common",
+    "\\src\\components"
+  ],
+  "SelectedNode": "\\src\\main.js",
+  "PreviewInSolutionExplorer": false
+}

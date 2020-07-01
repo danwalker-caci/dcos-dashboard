@@ -1,0 +1,120 @@
+﻿.padr0 { padding-right: 0; }
+.padl0 { padding-left: 0; }
+.padlr10 { padding-left: 10px; padding-right: 10px; }
+.padlr15 { padding-left: 15px; padding-right: 15px; }
+.padlr5 { padding-left: 5px; padding-right: 5px; }
+.padtop7 { padding-top: 7px; }
+.padtop5 { padding-top: 5px; }
+.padb25 { padding-bottom: 25px; }
+.floatleft { float: left; }
+.floatright { float: right; }
+.topstickyholder { height: 50px; width: 100%; }
+.topsticky { height: 50px; z-index: 2000; width: 100%; }
+.sticky { position: absolute; top: 60px; left: 0; } 
+
+/* margins */
+.nomargin { margin: 0 !important; }
+.margin-right-0 { margin-right: 0; }
+.margin-left-0 { margin-left: 0; }
+.margin-right-5 { margin-right: 5px; }
+.margin-left-5 { margin-left: 5px; }
+.margin-right-10 { margin-right: 10px; }
+.margin-left-10 { margin-left: 10px; }
+.margin-top-0 { margin-top: 0; }
+.margin-bottom-0 { margin-bottom: 0; }
+.margin-top-5 { margin-top: 5px; }
+.margin-bottom-5 { margin-bottom: 5px; }
+.margin-top-10 { margin-top: 10px; }
+.margin-bottom-10 { margin-bottom: 10px; }
+/* padding */
+.nopadding { padding: 0 !important; }
+.pad-right-0 { padding-right: 0; }
+.pad-left-0 { padding-left: 0; }
+.pad-right-5 { padding-right: 5px; }
+.pad-left-5 { padding-left: 5px; }
+.pad-right-10 { padding-right: 10px; }
+.pad-left-10 { padding-left: 10px; }
+.pad-top-0 { padding-top: 0; }
+.pad-bottom-0 { padding-bottom: 0; }
+.pad-top-5 { padding-top: 5px; }
+.pad-bottom-5 { padding-bottom: 5px; }
+.pad-top-10 { padding-top: 10px; }
+.pad-bottom-10 { padding-bottom: 10px; }
+/* floats */
+.float-left { float: left; }
+.float-right { float: right; }
+/* borders */
+.border-1px-black { border: 1px solid black; }
+/* hide some stuff */
+.s4-titlelogo { display: none; }
+
+.nav-header { 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+
+body #s4-ribbonrow {
+	background-color: #000;
+}
+
+body #s4-leftpanel {
+    width: 180px;
+}
+
+.s4-ca {
+	 margin-left:180px; 
+}	
+
+.ms-cui-topBar2 {
+    border-bottom: 1px solid #000000;
+}
+
+.modal-vertical-alignment-helper {
+	display:table;
+	height: 100%;
+	width: 100%;
+}
+.modal-vertical-align-center {
+	display: table-cell;
+	vertical-align: middle;
+}
+.modal-content-inherit {
+	width:inherit;
+	height:inherit;
+	margin: 0 auto;
+}
+
+.modal { top: 50px; } /* Ensure the modal doesn't cover the top navbar */
+
+/*#region webparts*/
+
+.webpartcontainer {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.ms-WPBorder, .ms-WPBorderBorderOnly {
+    border-color: #000000 !important;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ms-WPHeader {
+    color: #fff !important;
+    background-color: #000000 !important;
+    text-decoration: none;
+}
+
+.ms-WPTitle, .ms-WPTitle a {
+    color: #ffffff !important;
+}
+
+.ms-WPHeader td, .ms-fakewptitle {
+    border-bottom: 1px solid #000000;
+    height: 28px; 
+}
+
+/*#endregion*/

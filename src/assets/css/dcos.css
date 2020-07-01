@@ -1,0 +1,48 @@
+.dashboard { margin-top: 10px; }
+
+.panel-heading {
+    padding: 2px 5px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    text-align: center;
+}
+
+.panel-black > .panel-heading {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+    font-size: 14px;
+}
+
+.panel-black {
+    border-color: #000000;
+}
+
+/*  Override sharepoint styles  */
+
+.s4-search { line-height: normal; }
+
+.s4-search input.ms-sbplain {
+  font-size: 1.1em;
+  border-right: 0 !important;
+  width: 191px !important;
+  background: url("/_layouts/images/bgximg.png") repeat-x -0px -511px;
+  border: 1px solid #e3e3e3 !important;
+  background-color: #fff;
+  height: 22px;
+  padding: 2px 3px 0;
+}
+
+.s4-search .srch-gosearchimg {
+  background: url("/_layouts/images/bgximg.png") repeat-x -0px -511px;
+  border: 1px solid #e3e3e3 !important;
+  border-left: none !important;
+  background-color: #fff;
+  height: 22px;
+  padding: 0 !important;
+}
+
+.form-control {
+  color: #000000 !important;
+}
